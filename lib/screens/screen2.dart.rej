@@ -1,0 +1,28 @@
+diff a/lib/screens/screen2.dart b/lib/screens/screen2.dart	(rejected hunks)
+@@ -380,7 +383,7 @@
+               const SizedBox(width: 4),
+               CustomText(
+                 text: "$humidity%",
+-                style: const TextStyle(fontSize: 12, color: Colors.grey),
++                style: const TextStyle(fontSize: 12, color: Colors.white),
+               ),
+             ],
+           ),
+@@ -392,7 +395,7 @@
+               const SizedBox(width: 4),
+               CustomText(
+                 text: "$pressure hPa",
+-                style: const TextStyle(fontSize: 12, color: Colors.grey),
++                style: const TextStyle(fontSize: 12, color: Colors.white),
+               ),
+             ],
+           ),
+@@ -404,7 +407,7 @@
+               const SizedBox(width: 4),
+               CustomText(
+                 text: "${windSpeed.toStringAsFixed(1)} m/s",
+-                style: const TextStyle(fontSize: 12, color: Colors.grey),
++                style: const TextStyle(fontSize: 12, color: Colors.white),
+               ),
+             ],
+           ),
